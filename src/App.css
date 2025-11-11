@@ -4,19 +4,19 @@
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-/* ====== Tema Claro ====== */
+
 .light-theme {
   background-color: #ff00b3;
   color: #111;
 }
 
-/* ====== Tema Oscuro ====== */
+
 .dark-theme {
   background-color: #111;
   color: #ff00b3;
 }
 
-/* ====== Contenedor principal ====== */
+
 .App-header {
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   height: 80vh;
 }
 
-/* ====== LOGO ====== */
+
 .App-logo {
   width: 200px;
   height: 200px;
@@ -36,17 +36,17 @@
   transition: background-image 0.5s ease, transform 0.5s ease;
 }
 
-/* 🌞 Imagen modo CLARO */
+
 .light-theme .App-logo {
   background-image: url("./hkitty.png");
 }
 
-/* 🌙 Imagen modo OSCURO */
+
 .dark-theme .App-logo {
   background-image: url("./d56dc2b183ea263.png");
 }
 
-/* ====== Botón ====== */
+
 .theme-toggle {
   margin-top: 20px;
   background: none;
@@ -64,7 +64,7 @@
   color: var(--bg);
 }
 
-/* ====== Animación de giro ====== */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
